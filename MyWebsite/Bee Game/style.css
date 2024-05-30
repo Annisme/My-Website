@@ -1,0 +1,138 @@
+
+
+
+
+#app{
+    position: absolute;
+    width: 1000px;
+    height: 562px;
+}
+
+#bee{
+    position: absolute;
+    width: 40px;
+    left: 10px;
+    top:50%;
+        
+}
+
+#dragonfly{
+    position: absolute;
+    width: 200px;
+    left: 110px;
+    top:0px;
+    
+}
+
+#f1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 350px;
+    top:30%;
+}
+
+
+#garlic{
+    position: absolute;
+    width: 200px;
+    left: 550px;
+    top:0px;
+}
+
+#f2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 780px;
+    top:80%;
+}
+
+
+#up{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 40px;
+    top:95%;
+}
+#down{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 40px;
+    top:105%;
+}
+
+#right{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 80px;
+    top:100%;
+}
+
+#left{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top:100%;
+}
+
+
+#ok1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 380px;
+    top:34%;
+visibility:  hidden;
+}
+
+#ok2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 820px;
+    top:85%;
+visibility:  hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

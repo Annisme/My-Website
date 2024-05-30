@@ -1,0 +1,98 @@
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>旋轉箭頭</title>
+          
+          
+          <link rel="stylesheet" type="text/css" href="style.css" /><style>
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .rotating-image {
+        width: 200px; /* 調整圖片大小 */
+        height: 200px;
+        animation: rotate 5s linear infinite; /* 設定動畫 */
+ </style><style>  
+    @keyframes moveUpDown {
+        0% {
+            transform: translateY(0); /* 开始时在原始位置 */
+        }
+        50% {
+            transform: translateY(470px); /* 中间位置，向下移动100px */
+        }
+        100% {
+            transform: translateY(0); /* 结束时回到原始位置 */
+        }
+    }
+
+      .moving-image {
+        width: 200px; /* 图片大小 */
+        height: 200px;
+        animation: moveUpDown 2.5s ease-in-out infinite; /* 应用动画 */
+    }
+</style><style>
+        .moving-image2 {
+        width: 200px; /* 图片大小 */
+        height: 200px;
+        animation: moveUpDown 2s ease-in-out infinite; /* 应用动画 */
+    </style><style>
+    .flipped-image {
+        width: 200px; /* 图片大小 */
+        height: 200px;
+        transform: scaleX(-1); /* 图片左右翻转 */
+    }
+</style><style>
+    .rotated-image {
+        transform: rotate(90deg); /* 图片旋转90度 */
+    }
+</style><style>
+    .rotated-image2 {
+       transform: rotate(270deg);/*片旋转90度 */
+    }
+</style><style>
+    .rotated-image3 {
+        transform: rotate(180deg);/*片旋转90度 */
+    }
+</style>
+          
+          
+          
+        </head>
+        <body >
+          
+   <div  id = "app">
+    <img src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/5296307.jpg" />
+    <img id = "f1" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/%E5%9C%96%E7%89%8713.png" alt="Rotating Image" class="rotating-image">
+    <img id = "f2" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/flower-icon_34420.png" alt="Rotating Image" class="rotating-image">
+     <img id = "bee" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/bee.png" >
+     <img id = "dragonfly"src="image/dra.png" alt="Moving Image" class="moving-image2">
+     <img id = "garlic" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/garlic.png" alt="Moving Image" class="moving-image2">
+     <img id = "up" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/arrow.png" alt="Rotated Image" class="rotated-image2" onclick="move('up')">
+     <img id = "down" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/arrow.png"alt="Rotated Image" class="rotated-image" onclick="move('down')">
+     <img id = "right" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/arrow.png" onclick="move('right')">
+     <img id = "left" src="https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/arrow.png"  alt="Rotated Image" class="rotated-image3" onclick="move('left')">
+     <img id = "ok1" src= "https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/ok.png ">
+     <img id = "ok2" src= "https://app.bsd.education/res/d27a2ca9-cdae-4514-a3ee-f39ca88883c5/ok.png ">
+    
+    
+    
+    
+    </div>
+
+
+    
+    
+
+          
+          <script type="text/javascript" src="script.js"></script>
+          
+        </body>
+      </html>
+    
